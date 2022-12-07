@@ -53,6 +53,11 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Payroll_accountingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Payroll_accountingDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TableMenu.cs">
@@ -76,6 +81,17 @@
     <EmbeddedResource Include="TableMenu.resx">
       <DependentUpon>TableMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Payroll_accountingDataSet.xsc">
+      <DependentUpon>Payroll_accountingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Payroll_accountingDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Payroll_accountingDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Payroll_accountingDataSet.xss">
+      <DependentUpon>Payroll_accountingDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
