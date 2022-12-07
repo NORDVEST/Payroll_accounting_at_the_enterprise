@@ -16,7 +16,7 @@ namespace Payroll_accounting_at_the_enterprise
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainMenu());
         }
     }
 }

@@ -10,22 +10,14 @@ using System.Windows.Forms;
 
 namespace Payroll_accounting_at_the_enterprise
 {
-    public partial class Form1 : Form
+    public partial class TableMenu : Form
     {
-
-        DataBase dataBase = new DataBase();
-
-        public Form1()
+        public TableMenu()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void TableMenu_Load(object sender, EventArgs e)
         {
 
         }
